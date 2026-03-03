@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silentcybersecurity | Young Ethical Hackers Indonesia</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0a0f1e;
+            color: #e0e0e0;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #0f172a, #1a2335);
+            padding: 60px 0;
+            border-bottom: 3px solid #00ff88;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 4rem;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+        }
+        
+        .glow {
+            color: #00ff88;
+            text-shadow: 0 0 15px rgba(0, 255, 136, 0.6);
+        }
+        
+        .subtitle {
+            font-size: 1.5rem;
+            color: #a0a0a0;
+            font-style: italic;
+        }
+        
+        .tagline {
+            margin-top: 20px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #00ff88;
+        }
+        
+        section {
+            background: #111827;
+            margin: 30px 0;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0, 255, 136, 0.1);
+            border-left: 5px solid #00ff88;
+        }
+        
+        h2 {
+            color: #00ff88;
+            margin-bottom: 25px;
+            font-size: 2.2rem;
+            border-bottom: 2px solid #2a3a5a;
+            padding-bottom: 10px;
+        }
+        
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+        
+        .card {
+            background: #1e293b;
+            padding: 30px;
+            border-radius: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            border: 1px solid #2d3b52;
+        }
+        
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 30px rgba(0, 255, 136, 0.2);
+            border-color: #00ff88;
+        }
+        
+        .card h3 {
+            color: #00ff88;
+            margin-bottom: 15px;
+            font-size: 1.8rem;
+        }
+        
+        .card p {
+            color: #cbd5e1;
+            margin-bottom: 20px;
+        }
+        
+        .badge {
+            background: #2d3b52;
+            color: #00ff88;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            display: inline-block;
+            font-weight: bold;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 40px;
+            background: #0f172a;
+            margin-top: 50px;
+            border-top: 2px solid #2a3a5a;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: #00ff88;
+            color: #0f172a;
+            padding: 15px 35px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            margin: 10px;
+            font-size: 1.1rem;
+            transition: all 0.3s;
+            border: 2px solid #00ff88;
+        }
+        
+        .btn:hover {
+            background: transparent;
+            color: #00ff88;
+            transform: scale(1.05);
+        }
+        
+        .btn-outline {
+            background: transparent;
+            border: 2px solid #00ff88;
+            color: #00ff88;
+        }
+        
+        .btn-outline:hover {
+            background: #00ff88;
+            color: #0f172a;
+        }
+        
+        .warning {
+            background: rgba(255, 100, 100, 0.1);
+            border-left: 5px solid #ff5555;
+            padding: 25px;
+            margin: 30px 0;
+            border-radius: 8px;
+        }
+        
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 40px 0;
+        }
+        
+        .stat-item {
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #00ff88;
+        }
+        
+        .stat-label {
+            color: #a0a0a0;
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        @media (max-width: 768px) {
+            h1 { font-size: 2.8rem; }
+            .subtitle { font-size: 1.2rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🛡️ <span class="glow">Silentcybersecurity</span></h1>
+            <div class="subtitle">Young Ethical Hackers • Indonesia</div>
+            <div class="tagline">"Learn today, secure tomorrow."</div>
+        </div>
+    </header>
+    
+    <div class="container">
+        <section>
+            <h2>⚡ About Us</h2>
+            <p style="font-size: 1.3rem; margin-bottom: 20px;">We are a team of young Indonesian cybersecurity enthusiasts dedicated to learning ethical hacking, sharing knowledge, and building a safer digital world. At ages 13-15, we believe it's never too early to start learning how to protect and defend.</p>
+            
+            <div class="stats">
+                <div class="stat-item">
+                    <div class="stat-number">4</div>
+                    <div class="stat-label">Team Members</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">5+</div>
+                    <div class="stat-label">Projects</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">2026</div>
+                    <div class="stat-label">Founded</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Ethical</div>
+                </div>
+            </div>
+            
+            <div class="warning">
+                <strong>⚠️ EDUCATIONAL PURPOSE ONLY:</strong> All our projects and scripts are for learning in controlled lab environments. We promote responsible disclosure and ethical practices. Never use these techniques against systems without authorization.
+            </div>
+        </section>
+        
+        <section>
+            <h2>🎯 What We Do</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>🔬 Lab Experiments</h3>
+                    <p>We document our cybersecurity experiments — network analysis, packet crafting, vulnerability assessments, and more. All in isolated lab environments.</p>
+                    <span class="badge">Coming Soon</span>
+                </div>
+                
+                <div class="card">
+                    <h3>🐍 Python Scripts</h3>
+                    <p>Educational Python scripts demonstrating security concepts: socket programming, encryption, scanning techniques, and defense mechanisms.</p>
+                    <span class="badge">In Progress</span>
+                </div>
+                
+                <div class="card">
+                    <h3>📚 Learning Resources</h3>
+                    <p>We share what we learn — notes, book summaries, course recommendations, and guides for beginners in cybersecurity.</p>
+                    <span class="badge">Coming Soon</span>
+                </div>
+                
+                <div class="card">
+                    <h3>🏴 CTF Write-ups</h3>
+                    <p>Solutions and explanations for Capture The Flag challenges we've solved as a team. Learn with us!</p>
+                    <span class="badge">Coming Soon</span>
+                </div>
+                
+                <div class="card">
+                    <h3>🌐 Network Tools</h3>
+                    <p>Simple network utilities to understand how data travels, how protocols work, and how to monitor traffic.</p>
+                    <span class="badge">Planning</span>
+                </div>
+                
+                <div class="card">
+                    <h3>🔐 Cryptography</h3>
+                    <p>Basic encryption and decryption examples to understand the fundamentals of secure communication.</p>
+                    <span class="badge">Planning</span>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h2>👥 Team Members</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Arya</h3>
+                    <p><strong>Founder & Lead Learner</strong></p>
+                    <p>Age 13 • Focus: Network Security, Python</p>
+                    <p style="margin-top: 15px; font-style: italic; color: #00ff88;">"Learning to build a safer digital world, one line of code at a time."</p>
+                </div>
+                
+                <div class="card">
+                    <h3>Rafi</h3>
+                    <p><strong>Co-Founder & Web Security</strong></p>
+                    <p>Age 14 • Focus: Web Security, JavaScript</p>
+                    <p style="margin-top: 15px; font-style: italic; color: #00ff88;">"Understanding the web to make it safer for everyone."</p>
+                </div>
+                
+                <div class="card">
+                    <h3>Bima</h3>
+                    <p><strong>Network Analyst</strong></p>
+                    <p>Age 13 • Focus: TCP/IP, Wireshark</p>
+                    <p style="margin-top: 15px; font-style: italic; color: #00ff88;">"Networks are the backbone — learn them well."</p>
+                </div>
+                
+                <div class="card">
+                    <h3>Dinda</h3>
+                    <p><strong>Cryptography Enthusiast</strong></p>
+                    <p>Age 14 • Focus: Encryption, Algorithms</p>
+                    <p style="margin-top: 15px; font-style: italic; color: #00ff88;">"Codes and ciphers are the language of security."</p>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h2>📁 Projects & Labs</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Network Scanner Pro</h3>
+                    <p>Python-based network discovery tool for educational labs. Understand how devices communicate and how scanning works.</p>
+                    <span class="badge">Planning</span>
+                </div>
+                
+                <div class="card">
+                    <h3>DDoS Simulation Lab</h3>
+                    <p>Educational scripts demonstrating various flooding techniques to understand defense strategies. For lab use only.</p>
+                    <span class="badge">Planning</span>
+                </div>
+                
+                <div class="card">
+                    <h3>Cryptography 101</h3>
+                    <p>Implementation of basic encryption algorithms for learning purposes. Understand hashing, symmetric, and asymmetric encryption.</p>
+                    <span class="badge">Planning</span>
+                </div>
+                
+                <div class="card">
+                    <h3>Web Vulnerability Lab</h3>
+                    <p>Simple web app with common vulnerabilities (XSS, SQLi) to learn how they work and how to prevent them.</p>
+                    <span class="badge">Planning</span>
+                </div>
+                
+                <div class="card">
+                    <h3>Packet Analyzer</h3>
+                    <p>Basic packet sniffing tool to understand network traffic. For educational purposes only.</p>
+                    <span class="badge">Planning</span>
+                </div>
+                
+                <div class="card">
+                    <h3>Password Security</h3>
+                    <p>Demonstrations of hashing algorithms, salt, and why password security matters.</p>
+                    <span class="badge">Planning</span>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h2>📅 Timeline & Milestones</h2>
+            <div style="background: #1e293b; padding: 30px; border-radius: 10px;">
+                <div style="margin-bottom: 20px;">
+                    <span style="color: #00ff88; font-weight: bold;">Q1 2026:</span> Team formation & website launch ✅
+                </div>
+                <div style="margin-bottom: 20px;">
+                    <span style="color: #00ff88; font-weight: bold;">Q2 2026:</span> First 5 Python scripts published ⏳
+                </div>
+                <div style="margin-bottom: 20px;">
+                    <span style="color: #00ff88; font-weight: bold;">Q3 2026:</span> Complete first CTF challenge as team ⏳
+                </div>
+                <div style="margin-bottom: 20px;">
+                    <span style="color: #00ff88; font-weight: bold;">Q4 2026:</span> Launch blog with beginner tutorials ⏳
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h2>📚 Resources We Use</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>📖 Books</h3>
+                    <ul style="list-style-type: none;">
+                        <li>• Python Crash Course</li>
+                        <li>• Network Security Fundamentals</li>
+                        <li>• Web Application Security</li>
+                    </ul>
+                </div>
+                
+                <div class="card">
+                    <h3>💻 Platforms</h3>
+                    <ul style="list-style-type: none;">
+                        <li>• TryHackMe</li>
+                        <li>• HackTheBox Academy</li>
+                        <li>• GitHub</li>
+                    </ul>
+                </div>
+                
+                <div class="card">
+                    <h3>🔧 Tools</h3>
+                    <ul style="list-style-type: none;">
+                        <li>• Python</li>
+                        <li>• Wireshark</li>
+                        <li>• Kali Linux</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <section style="text-align: center;">
+            <h2>📬 Get In Touch</h2>
+            <p style="font-size: 1.2rem; margin-bottom: 30px;">Want to collaborate, learn together, or just say hi? Reach out to us!</p>
+            
+            <a href="mailto:silentcybersec.id@gmail.com" class="btn">📧 Email Us</a>
+            <a href="https://github.com/silentcybersecurity" class="btn btn-outline">🐙 GitHub</a>
+            
+            <div style="margin-top: 40px;">
+                <p style="color: #a0a0a0;">📱 Instagram: @silentcybersecurity (coming soon)</p>
+                <p style="color: #a0a0a0;">💬 Discord: Silentcybersecurity Community (coming soon)</p>
+            </div>
+            
+            <p style="margin-top: 40px; color: #a0a0a0; font-size: 1.2rem;">
+                Silentcybersecurity • Learning Today • Securing Tomorrow
+            </p>
+        </section>
+    </div>
+    
+    <footer>
+        <p>© 2026 Silentcybersecurity Team. All rights reserved.</p>
+        <p style="margin-top: 15px; font-size: 0.9rem; color: #666;">Built with 💻 and ☕ by young Indonesian ethical hackers</p>
+        <p style="margin-top: 20px; font-size: 0.8rem; color: #444;">
+            #EthicalHacking #Cybersecurity #Indonesia #WhiteHat #LearnByDoing #TeenTech #Silentcybersecurity
+        </p>
+        <p style="margin-top: 30px; font-size: 0.8rem; color: #333;">
+            "The only way to do great work is to love what you learn." — Silentcybersecurity Team
+        </p>
+    </footer>
+</body>
+  </html>
